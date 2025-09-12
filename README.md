@@ -2,5 +2,5 @@
 repository of gameProgramming class
 
 ftpserver.ksecole.kr
-gameprogramming
-gameprogramming
+id: gameprogramming
+pw: gameprogramming
