@@ -5,4 +5,4 @@ ftpserver.ksecole.kr
 id: gameprogramming
 pw: gameprogramming
 
-vs코드 한글 깨짐 -> cmd: chcp 65001
+터미널 한글 깨짐 -> cmd: chcp 65001
