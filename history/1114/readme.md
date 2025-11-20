@@ -37,3 +37,48 @@
 - Set Bounciness
 - Apply via Collider → Material
 
+----------------------------------
+
+## Unity Commands Used — Character Move
+
+### Project
+- All templates
+- 3D (Core)
+- Create project
+
+### Import
+- Assets → Import Package → Custom Package
+- Import Unity Package → All → Import
+
+### Scripts
+- Create → C# Script
+- GetComponent<CharacterController>()
+- controller.Move()
+- GetComponent<Animator>()
+- anim.SetFloat(), anim.SetTrigger()
+- Input.GetAxis("Horizontal/Vertical")
+- Input.GetButton("Jump")
+- transform.LookAt()
+- transform.forward
+- Physics.gravity
+- Time.deltaTime
+
+### Terrain
+- 3D Object → Terrain
+- Terrain Settings (Width/Length)
+- Paint Terrain (Paint Texture / Raise or Lower / Smooth Height / Stamp)
+- Terrain Layers → Create Layer (Grass, Sand)
+- Brush Size / Opacity
+- [ ] keys to resize brush
+
+### Character Placement
+- Drag PQchan prefab into Hierarchy
+- Adjust Position / Rotation
+- Assign QueryChanController script
+
+### Camera
+- Adjust Main Camera Transform
+
+### Play Mode
+- Play / Pause / Step
+- Controls: Arrow Keys / Space bar
